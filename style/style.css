@@ -1,0 +1,38 @@
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+table {
+  min-height: 800px;
+  width: 800px;
+}
+
+table,
+td {
+  border-collapse: collapse;
+  border: 8px solid black;
+}
+
+td {
+  height: 50px;
+}
+
+td:nth-child(4) {
+  width: 20px;
+}
